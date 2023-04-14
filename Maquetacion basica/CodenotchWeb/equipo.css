@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+.navegador {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding: 15px;
+
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
+
+
+
+.contenedores{
+    display:flex;
+    flex-direction: column;
+}
+
+.contenedor1 {
+    align-self: center;
+    padding-top: 5% ;
+    font-size: 200%;
+}
+
+
+.contenedor2 {
+    display: flex;
+    flex-wrap: center;
+    justify-content: space-between;
+    margin: 5%;
+    background-color: #ffffff;
+  
+  
+   
+    }
+    
+    .profesor {
+        width: 30%;
+        margin-bottom: 20px;
+        padding: 5%;
+        border: 1px solid #ffffff;
+        border-radius: 5%;
+      
+   
+    }
+    
+    h2 {
+    font-size: 300%;
+    margin-bottom: 10px;
+    }
+    
+    p {
+    font-size: 150%;
+    margin-bottom: 10px;
+    }
+
+    .imagen{
+        margin-bottom: 10%;
+    }
+
+    footer {
+        background-color: #f2f2f2;
+        margin-top: 15%;
+        text-align: center;
+        font-size: 14px;
+      }
+      
+      .redes img {
+        
+        height: 30px;
+        margin: 0 10px;
+       
+      }

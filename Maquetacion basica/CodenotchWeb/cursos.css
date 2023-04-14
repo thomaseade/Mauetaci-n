@@ -1,0 +1,68 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+
+
+
+
+.navegador {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding: 15px;
+
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
+
+.cursos {
+    display: flex;
+    flex-wrap: center;
+    justify-content: space-between;
+    margin: 5%;
+    background-color: #ffffff;
+  
+   
+    }
+    
+    .curso {
+    width: 30%;
+    margin-bottom: 20px;
+    padding: 5%;
+    border: 1px solid #ffffff;
+    border-radius: 5%;
+    background-color:#0000FF;
+    }
+    
+    h2 {
+    font-size: 300%;
+    margin-bottom: 10px;
+    }
+    
+    p {
+    font-size: 150%;
+    margin-bottom: 10px;
+    }
+
+    footer {
+        background-color: #f2f2f2;
+        padding: 10px;
+        text-align: center;
+        font-size: 14px;
+      }
+      
+      .redes img {
+        height: 30px;
+        margin: 0 10px;
+       
+      }
