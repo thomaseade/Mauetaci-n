@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.navegador {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding: 15px;
+
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(0, 0, 0);
+
+}
+
+.contenedor {
+
+    display: flex;
+    flex-direction:column ;
+
+}
+
+.texto1 {
+
+    font-size: 500%;
+    color:#0000FF;
+   align-self: center;
+   margin-top: 5%;
+   margin-bottom: 5%;
+  ;
+}
+.texto2{
+    font-size: 300%;
+    color: rgb(0, 0, 0);
+    align-self: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+   padding: 5%;
+
+ 
+}
+
+.texto3{
+    
+    font-size: 500%;
+    color:#0000FF;
+   align-self: center;
+   margin-top: 5%;
+   margin-bottom: 5%;
+  ;
+}
+
+.imagen{
+   padding: auto;
+   background-color: black;
+   align-self: center;
+}
+
+.imagen2{
+    padding: auto;
+   background-color: black;
+   align-self: center;
+}
+
+
+footer {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .redes img {
+    height: 30px;
+    margin: 0 10px;
+;
+  }
+  
