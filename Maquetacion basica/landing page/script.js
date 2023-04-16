@@ -41,5 +41,12 @@ function filtrarInformacion() {
       return destino === "canarias" || destino === "mallorca" || destino === "galicia";
     });
   
-    console.log(destinosFiltrados);
+    let destinosFiltradosList = document.getElementById("destinos-filtrados-list");
+    destinosFiltradosList.innerHTML = '';
+  
+    destinosFiltrados.forEach((informacionViaje) => {
+      let li = document.createElement('li');
+      li.innerText = `Nombre: ${informacionViaje.nombre}, Destino: ${informacionViaje.destino}, Personas: ${informacionViaje.personas}, Fecha: ${informacionViaje.fecha}`;
+      destinosFiltradosList.appendChild(li);
+    });
   }
