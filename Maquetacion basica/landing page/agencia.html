@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="agencia.css">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <div class="cabecera">
+		<div class="contenedor">
+			<h1>Agencia de Viajes</h1>
+			
+		</div>
+	</div>
+
+
+
+
+
+    <div class="main">
+	<div class="container">
+		<div class="descripcion">
+			<h2>Sobre Nosotros</h2>
+			<p>Agencia de viajes que organiza tus vacaiones con la mejor relación calidad/precio.</p>
+		</div>
+
+		<div class="destinos">
+			<h2>Destinos Populares</h2>
+			<div class="tarjeta">
+				<img src="imagenes/tenerife.png" alt="Destino 1">
+				<h3>Canarias</h3>
+				<p>Desde 250 € por persona</p>
+			</div>
+			<div class="tarjeta">
+				<img src="imagenes/palma.png" alt="Destino 2">
+				<h3>Mallorca</h3>
+				<p>Desde 300€ por persona</p>
+			</div>
+			<div class="tarjeta">
+				<img src="imagenes/coruña.png" alt="Destino 3">
+				<h3>Galicia</h3>
+				<p>Desde 185€ por persona</p>
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+
+		<div class="formulario">
+
+			<h2>Contacto</h2>
+
+            <form>
+
+                <div class="form-group">
+
+                  <label for="nombre">Nombre:</label>
+                  <input type="text" id="nombre" name="nombre" required>
+                </div>
+
+                <div class="form-group">
+
+                  <label for="origen">Origen:</label>
+                  <input type="text" id="origen" name="origen" required>
+                </div>
+
+                <div class="form-group">
+
+                  <label for="destino">Destino:</label>
+                  <input type="text" id="destino" name="destino" required>
+                </div>
+
+                <div class="form-group">
+
+                  <label for="personas">Número de personas:</label>
+                  <input type="number" id="personas" name="personas" min="1" max="10" required>
+                </div>
+
+                <div class="form-group">
+
+                  <label for="fecha">Fecha:</label>
+                  <input type="date" id="fecha" name="fecha" required>
+                </div>
+
+                <div class="form-group">
+
+                 <button type="button" class="solicitar-btn" onclick="guardarInformacion()">Solicitar información</button>
+                 <button type="button" class="filtrar-btn" onclick="filtrarInformacion()">Filtrar</button>
+                </div>
+
+                
+              </form>
+
+              <div id="destinos-filtrados">
+                <h2>Destinos filtrados:</h2>
+                <ul id="destinos-filtrados-list"></ul>
+              </div>
+
+<script src="script.js"></script>
+
+             
+</body>
+</html>

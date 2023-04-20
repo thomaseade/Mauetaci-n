@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="portafolio.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+		<h1>Thomas Nicholas Eade</h1>
+		<nav>
+			<a href="#presentacion">Presentación</a>
+			<a href="#informacion">Información de contacto</a>
+			<a href="#tecnologias">Tecnologías</a>
+			<a href="#proyectos">Proyectos</a>
+			<a href="#contacto">Contacto</a>
+		</nav>
+	</header>
+
+
+	<section id="presentacion">
+		<h2>Presentación</h2>
+		<p>Hola, Soy Thomas Nicholas Eade, Full Stack Developer .
+            Me considero una persona autodidacta, y he aprendido muchas cosas de manera autónoma. 
+            Me gusta trabajar en equipo y aprender de mis compañeros, con ganas de enfrentarme a cualquier reto.</p>
+	</section>
+
+
+	<section id="informacion">
+		<h2>Información de contacto</h2>
+		<p>Puedes contactar conmigo:</p>
+		<ul>
+			<li>eadethomas95@gmail.com</li>
+			<li>684295429</li>
+			
+		</ul>
+	</section>
+
+
+	<section id="tecnologias">
+		<h2>Tecnologías</h2>
+		<p>Estas son algunas de las tecnologías que conozco:</p>
+		<ul>
+			<li><img src="images/HTML.png" alt="HTML"> HTML (front-end)</li>
+			<li><img src="images/CSS.png" alt="CSS"> CSS (front-end)</li>
+			<li><img src="images/JS.png" alt="JavaScript"> JavaScript (front-end y back-end)</li>
+		
+		</ul>
+	</section>
+
+
+    <section id="proyectos">
+		<h2>Proyectos</h2>
+		<p>Este es mi proyecto:</p>
+		<div class="proyecto">
+			<h3>Proyecto 1</h3>
+			<p>Diseño de un portafolio.</p>
+			<p>Tecnologías utilizadas: HTML, CSS, JavaScript.</p>
+			<p>Enlace al repositorio Git </p>
+            <ul>
+                <li><a href="https://github.com/thomaseade/Mauetaci-n/tree/dia4/Maquetacion%20basica">Repositorio Git</a></li>
+               
+              </ul>
+			
+		</div>
+    </section>
+
+
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Contacta conmigo desde aqui:</p>
+        <form action="enviar.php" method="POST">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required>
+      
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+      
+          <label for="telefono">Teléfono:</label>
+          <input type="tel" id="telefono" name="telefono">
+      
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" required></textarea>
+      
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+
+
+      
+      
+    <footer>
+            
+         <p>Portafolio Thomas Nicholas Eade</p>
+
+    </footer>
+     
+    
+</body>
+</html>
