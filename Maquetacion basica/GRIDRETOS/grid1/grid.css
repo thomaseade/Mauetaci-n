@@ -12,6 +12,9 @@
     grid-column-start: 1;
     grid-column-end: 2;
     background-color: green;
+    color:white;
+    display:flex;
+    justify-content: center;
     
   }
 
@@ -21,6 +24,9 @@
     grid-column-start: 2;
     grid-column-end: 3;
     background-color: orange;
+    color:white;
+    display:flex;
+    justify-content: center;
   }
 
   .caja3 {
@@ -29,6 +35,9 @@
     grid-column-start: 3;
     grid-column-end: 3;
     background-color: orangered;
+    color:white;
+    display:flex;
+    justify-content: center;
   }
 
   .caja4 {
@@ -37,6 +46,9 @@
     grid-column-start: 1;
     grid-column-end: 2;
     background-color: red;
+    color:white;
+    display:flex;
+    justify-content: center;
   }
 
   .caja5 {
@@ -45,6 +57,9 @@
     grid-column-start: 2;
     grid-column-end: 3;
     background-color: blue;
+    color:white;
+    display:flex;
+    justify-content: center;
   }
 
   .caja6 {
@@ -53,4 +68,7 @@
     grid-column-start: 3;
     grid-column-end: 3;
     background-color: yellow;
+    color:white;
+    display:flex;
+    justify-content: center;
   }
