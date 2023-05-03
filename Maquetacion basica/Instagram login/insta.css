@@ -1,0 +1,174 @@
+body {
+	background-color: white;
+	font-family: Arial, sans-serif;
+}
+
+
+.contenedores {
+
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.izq {
+    padding: 5%;
+    align-items: center;
+    margin-left: 23%;
+    margin-top: -30px;
+
+}
+
+.derecha {
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 25%;
+    margin-left: -90px;
+    border: 0.5px solid rgb(216, 216, 216);
+
+}
+
+
+.facebook {
+
+    margin-left: 45px;
+    margin-top:15px;
+}
+
+.registrate {
+    margin-left: 10px;
+}
+
+
+
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+form input[type="text"],
+form input[type="password"] {
+	border: 1px solid #dbdbdb;
+	border-radius: 3px;
+	padding: 10px;
+	margin-bottom: 10px;
+	width: 300px;
+	font-size: 14px;
+}
+
+form button[type="submit"] {
+	background-color: #419bf0;
+	color: #ffffff;
+	border: none;
+	border-radius: 10px;
+	padding: 10px 30px;
+	font-size: 14px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+form button[type="submit"]:hover {
+	background-color: #3173ba;
+}
+
+
+
+
+
+@media screen and (max-width:425px){
+    .contenedores{
+        margin-left:-120px;
+    }
+    .izq{
+        display:none;
+    }
+    .derecha{
+        margin-right:25%;
+       
+   
+    }
+    .form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    form input[type="text"],
+    form input[type="password"] {
+        border: 1px solid #dbdbdb;
+        border-radius: 3px;
+        padding: 10px;
+        margin-bottom: 10px;
+        width: 200px;
+        font-size: 14px;
+    }
+    
+    form button[type="submit"] {
+        background-color: #419bf0;
+        color: #ffffff;
+        border: none;
+        border-radius: 10px;
+        padding: 10px 30px;
+        font-size: 14px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    
+    form button[type="submit"]:hover {
+        background-color: #3173ba;
+    }
+}
+
+
+@media screen and (max-width:768px){
+        .izq{
+            display:none;
+        }
+        .derecha{
+         width: 768px;
+         align-items: center;
+         margin-left:25%;
+       
+       
+        }
+        .form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        form input[type="text"],
+        form input[type="password"] {
+            border: 1px solid #dbdbdb;
+            border-radius: 3px;
+            padding: 10px;
+            margin-bottom: 10px;
+            width: 200px;
+            font-size: 14px;
+        }
+        
+        form button[type="submit"] {
+            background-color: #419bf0;
+            color: #ffffff;
+            border: none;
+            border-radius: 10px;
+            padding: 10px 30px;
+            font-size: 14px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        
+        form button[type="submit"]:hover {
+            background-color: #3173ba;
+        }
+        
+    
+        }
+

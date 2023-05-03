@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+}
+
+
+.navegador {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding: 15px;
+
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
+
+
+.formulario {
+
+    margin: 50px auto;
+    width: 80%;
+    text-align: center;
+    }
+
+    h1 {
+
+    font-size: 36px;
+    margin-bottom: 20px;
+
+    }
+    form {
+
+    display: inline-block;
+    text-align: left;
+
+    }
+
+    label {
+
+    font-size: 24px;
+    display: block;
+    margin-bottom: 10px;
+
+    }
+
+    input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    font-size: 18px;
+    }
+
+    input[type="submit"] {
+    background-color:#0000FF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    cursor: pointer;
+    }
+
+
+    footer {
+        background-color: #f2f2f2;
+        margin-top: 15%;
+        text-align: center;
+        font-size: 14px;
+      }
+      
+      .redes img {
+        
+        height: 30px;
+        margin: 0 10px;
+       
+      }

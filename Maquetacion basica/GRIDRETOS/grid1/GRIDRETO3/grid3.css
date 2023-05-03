@@ -1,0 +1,194 @@
+.contenedor{
+	display: grid;
+	grid-template-columns: [x0]1fr [x1]1fr [x2]1fr [x3]1fr [x4]1fr;
+	grid-template-rows: [y0]1fr [y1]2fr [y2]1fr [y3]1fr [y4]1fr;
+	
+	height: 100vh;
+}
+
+
+
+
+
+.negro {
+	grid-column: x0 / x5;
+	grid-row: y0/ y1;
+	background-color: #000000;
+    color: #000000;
+}
+
+.header{
+    color: white;
+    align-self: center;
+    align-items: center;
+    margin-left: 45%;
+    margin-right: 50%;
+    margin-top:3%;
+    font-size: 200%;
+}
+
+
+
+
+
+
+.azul{
+	grid-column: x0/x4;
+	grid-row: y1/y4;
+	background-color: blue;
+    display:grid;
+    grid-template-columns: [xt0]1fr [xt1]1fr [xt2]1fr [xt3]1fr [xt4]1fr;
+	grid-template-rows: [yt0]1fr [yt1]2fr [yt2]1fr [yt3]1fr [yt4]1fr;
+    
+}
+
+.contenido{
+    grid-column: xt0 / xt5;
+	grid-row: yt0/ yt1;
+    padding: 10px;
+    border:solid 1px;
+    border-color:white ;
+    color: white;
+    font-size: 200%;
+    margin:10px;
+    
+
+}
+.texto1{
+    grid-column: xt0 / xt3;
+	grid-row: yt1/ yt5;
+    padding: 10px;
+    border:solid 1px;
+    border-color:white ;
+    color: white;
+    font-size: 120%;
+    margin:10px;
+
+}
+.texto2{
+    grid-column: xt3 / xt5;
+	grid-row: yt1/ yt5;
+    padding: 10px;
+    border:solid 1px;
+    border-color:white ;
+    color: white;
+    font-size: 120%;
+    margin:10px;
+
+}
+
+
+
+
+
+
+
+.verde{
+    grid-column: x4/x5;
+	grid-row: y1/y4;
+	background-color: rgb(14, 211, 145);
+    display:grid;
+    grid-template-columns: [xm0]1fr [xm1]1fr [xm2]1fr [xm3]1fr [xm4]1fr;
+	grid-template-rows: [ym0]1fr [ym1]1fr [ym2]1fr [ym3]1fr;
+}
+
+.MENU{
+    grid-column: xm0 / xm5;
+	grid-row: ym0/ ym1;
+    padding: 10px;
+    border:solid 1px;
+    border-color:black ;
+    color: white;
+    font-size: 200%;
+    margin:10px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.Menu1{
+    grid-column: xm0 / xm5;
+	grid-row: ym1/ ym2;
+    padding: 10px;
+    border:solid 1px;
+    border-color:black ;
+    color: white;
+    font-size: 120%;
+    margin:10px;
+    background-color: black;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.Menu2{
+    grid-column: xm0 / xm5;
+	grid-row: ym2/ ym3;
+    padding: 10px;
+    border:solid 1px;
+    border-color:black ;
+    color: white;
+    font-size: 120%;
+    margin:10px;
+    background-color: black;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+
+}
+.Menu3{
+    grid-column: xm0 / xm5;
+	grid-row: ym3/ ym4;
+    padding: 10px;
+    border:solid 1px;
+    border-color:black ;
+    color: white;
+    font-size: 120%;
+    margin:10px;
+    background-color: black;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+
+
+
+.morado {
+    grid-column: x0/x5;
+	grid-row: y4/y5;
+	background-color: rgb(52, 0, 100);
+    display:grid;
+    grid-template-columns: [xf0]1fr [xf1]1fr [xf2]1fr [xf3]1fr [xf4]1fr [xf5] 1fr;
+	grid-template-rows: [yf0]1fr [yf1]1fr ;
+}
+
+.footer{
+    grid-column: xf0 / xf3;
+	grid-row: yf0/ yf2;
+    padding: 10px;
+    border:solid 5px;
+    border-color:black ;
+    color: white;
+    font-size: 200%;
+    margin:10px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.contacto{
+    grid-column: xf3 / xf6;
+	grid-row: yf0/ yf2;
+    padding: 10px;
+    border:solid 5px;
+    border-color:black ;
+    color: white;
+    font-size: 200%;
+    margin:10px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+
