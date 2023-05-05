@@ -165,28 +165,28 @@
 
 
   //actualizar el precio total en el carrito
-  const updateCartTotal = () => {
-    //elementos del carrito
-    const items = document.getElementsByClassName("cart-item");
+  let updateCartTotal = () => {
+    
+    let items = document.getElementsByClassName("cart-item");
 
-    // suma total 0
+
     let total = 0;
 
     // sumar precio
     for (let i = 0; i < items.length; i++) {
-      const item = items[i];
-      const priceElement = item.getElementsByClassName("cart-item-price")[0];
-      const price = parseFloat(priceElement.innerText.replace("€", ""));
+      let item = items[i];
+      let priceElement = item.getElementsByClassName("cart-item-price")[0];
+      let price = parseFloat(priceElement.innerText.replace("€", ""));
       total += price;
     }
 
     //mostrar el precio total
-    const totalElement = document.createElement("p");
+    let totalElement = document.createElement("p");
     totalElement.innerText = `Precio total: ${total.toFixed(2)}€`;
     totalElement.classList.add("fw-bold", "mt-3");
 
-    // agregamos nuevo
-    const previousTotal = cart.getElementsByClassName("cart-total")[0];
+   
+    let previousTotal = cart.getElementsByClassName("cart-total")[0];
     if (previousTotal) {
       previousTotal.remove();
     }
@@ -195,13 +195,13 @@
   };
 
   //actualizar el precio total
-  const addToCartButtons = document.getElementsByClassName("addToCart");
+  let addToCartButtons = document.getElementsByClassName("addToCart");
   for (let i = 0; i < addToCartButtons.length; i++) {
-    const button = addToCartButtons[i];
+    let button = addToCartButtons[i];
     button.addEventListener("click", () => {
-      const price = parseFloat(button.getAttribute("data-price"));
-      const name = button.getAttribute("data-name");
-      const item = document.createElement("div");
+      let price = parseFloat(button.getAttribute("data-price"));
+      let name = button.getAttribute("data-name");
+      let item = document.createElement("div");
       item.classList.add("cart-item");
       item.innerHTML = `<p class="fw-bold">${name}</p><p class="cart-item-price">${price.toFixed(2)}€</p>`;
       cart.appendChild(item);
